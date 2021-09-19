@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head lang="English">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Front-End Development</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Creamy's Take</h1>
+        </header>
+        <main>
+            <article id="content">
+                <h2>Is The Future of Front-End Development Bleak?</h2>
+                <p>
+                    Programmers today entering the virtual jungle that is creating and 
+                    designing websites have become worried that front-end development is 
+                    dying out. If jobs in that field are still in demand, then why are 
+                    novices worried? While front-end development focuses on building the 
+                    UI with the basic languages of HTML, CSS, and JavaScript, the way 
+                    people use the internet is also constantly evolving. Today, users are 
+                    more concerned with the interactivity of the websites they use, which 
+                    means that real-time updates are needed for modern webpages. Using solely 
+                    methods that would’ve worked maybe ten or so years ago, this can become a 
+                    tedious process that turns out to be a nightmare to program.
+                </p>
+                <p>
+                    Because of this, front-end development has split into two categories of 
+                    people. One side focuses on the CSS design, which includes the presentation 
+                    of the UI, making sure that the text is standardized, and that the animations 
+                    on screen work without fault. On the other side is the logic of the application 
+                    that handles the real-time feedback of the webpage, including processing data, 
+                    writing and testing JavaScript, and overall, how efficient the website is. In 
+                    other words, front-end development isn’t dying out, it is only changing to 
+                    keep up with the rolling tide of technology.
+                </p>
+                <p>
+                    For example, today experienced developers rarely build webpages from the ground 
+                    up with HTML and CSS. They write JavaScript functions that generate the necessary 
+                    HTML and CSS. Which means that JavaScript isn’t a tool used just for interactivity,
+                    but for ease of programming. Below is an example of adding a 
+                    <code id="tag">&lt;p&gt;</code> tag using JavaScript taken from CodeGrepper.
+                </p>
+                <p>
+                    <p>This code adds a <code id="tag">&lt;p&gt;</code> tag,
+                        <code id="codeblock">
+                            var tag = document.createElement("p"); 
+                            var text = document.createTextNode("TEST TEXT"); 
+                            tag.appendChild(text); 
+                            var element = document.getElementsByTagName("body")[0];
+                            element.appendChild(tag); 
+                        </code>
+                    </p>
+                    <p> While this code generates HTML
+                        <code id="codeblock">
+                            let elem = document.getElementById("the tag you want to change code of");
+                            elem.innerHTML = "&lt;p&gt;Hello&lt;p&gt;";
+                            document.innerHTML += '&lt;a href=\"youtue.com\">click me !&lt;a&gt;';
+                        </code>
+                    </p>
+                </p>
+
+                <p>
+                    Blog information taken from 
+                    <blockquote>
+                        <a href="https://theunlikelydeveloper.com/is-front-end-development-dying/"
+                        target="_blank">Is front-end development dying?</a>
+                    </blockquote>
+                    and
+                    <blockquote>
+                        <a href="https://www.codegrepper.com/code-examples/javascript/how+to+generate+html+using+javascript"
+                        target="_blank">how to generate html using javascript</a>
+                    </blockquote>
+                    <br>
+                    <a href="index.html" target="_top">Back to home page</a>
+                </p>
+                <footer>
+                    Written September 19th, 2021<br>&copy;creamyslab
+                </footer>
+            </article>
+        </main>
+    </body>
+</html>
